@@ -1,0 +1,175 @@
+/* HEADER/BODY CORE BELOW */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(8, 7, 7)
+}
+
+header {
+    background-color: rgb(240, 87, 70);
+    color:rgb(22, 18, 18);
+    padding: 24px 0;
+}
+
+header h1 {
+    font-family: 'VALORANT', sans-serif;
+    font-size: 45px;
+}
+
+header,
+section h2,
+select,
+input,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+header .container a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header .container,
+section .container,
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a {
+    color: rgb(22, 18, 18);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* EXPLAINING THE SITE SECTION BELOW */
+
+section {
+    padding: 60px 0;
+}
+
+section img {
+    border: solid 3px;
+    border-color: rgb(240, 87, 70);
+    width: 120%;
+}
+
+section .container p {
+    color: aliceblue;
+    padding-left: 40px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+section .container h2 {
+    color:rgb(240, 87, 70); 
+    margin: 0 40px;
+    font-size: 120px;
+}
+
+section .container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    
+}
+
+/* FIND YOUR PARTNER CODING SECTION */
+
+#partner {
+    display: flex;
+}
+
+#partner .container h2 {
+    line-height: 120px;
+}
+
+    form select {
+        display: block;
+        width: 450px;
+        margin-right: 120px;
+        height: 50px;
+        font-size: 25px;
+        background-color: rgb(240, 87, 70);
+        color: white
+    }
+
+    form {
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    select{
+        text-align:center;
+        appearance: none;
+        outline:0;
+        border-color: rgb(26, 25, 25);
+    }
+
+    select:hover {
+        cursor:pointer;
+        background-color: brown;
+        
+    }
+
+    input {
+        margin-top: 2px;
+        margin-right: 120px;
+        padding: 8px 120px ;
+        font-size: 25px;
+        background-color: rgb(240, 87, 70);
+        color: white
+    }
+
+    input:hover {
+        cursor:pointer;
+        background: rgb(34, 33, 33);
+        box-shadow:0px 0px 0px 1px rgb(240, 87, 70);
+        margin-bottom:0px;
+    }
+
+    /* COMMUNITY SECTION CODING */
+
+#community img    {
+    display: inline;
+    width: 200px;
+    border: none;
+    margin: 0px 16px;
+}
+
+#community h2 {
+    line-height: 120px;
+    text-align: center;
+}
+
+#community img:hover {
+    cursor:pointer;
+    
+}
+
+/*FOOTER CODING */
+
+footer {
+    background-color: rgb(240, 87, 70);
+    height: 35px;
+}
+
+footer h3 {
+    padding-left: 16px;
+    font-size: 24px;
+}
